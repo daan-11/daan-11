@@ -1,0 +1,103 @@
+# Regenerates the contribution snake and the public stats cards.
+#
+# After merge, GitHub needs two settings or this workflow cannot publish:
+# 1. Actions enabled for the repository.
+# 2. Workflow permissions set to read and write (Settings, Actions, General).
+# Then run this workflow once from the Actions tab. The daily schedule is 05:20 UTC.
+#
+# The snake is published to the output branch and also copied into assets/
+# so the profile README keeps working from the default branch.
+
+name: Refresh profile
+
+"on":
+  schedule:
+    - cron: "20 5 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/refresh-profile.yml"
+      - ".github/scripts/render_dashboard.py"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: refresh-profile
+  cancel-in-progress: false
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate contribution snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/github-contribution-grid-snake.svg?palette=github&color_snake=#c45c26&color_dots=#ebedf0,#c6ebe6,#6fcec4,#1f9a91,#0f766e
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#e2a078&color_dots=#161b22,#123734,#1a5c56,#1f8f86,#5eead4
+
+      - name: Upload snake artwork
+        uses: actions/upload-artifact@v4
+        with:
+          name: snake
+          path: dist/
+          if-no-files-found: error
+
+      - name: Publish snake to the output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          jekyll: false
+          commit_message: "Update contribution snake"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  cards:
+    needs: snake
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Download snake artwork
+        uses: actions/download-artifact@v4
+        with:
+          name: snake
+          path: dist
+
+      - name: Copy snake into the repository
+        run: |
+          mkdir -p assets
+          find dist -name 'github-contribution-grid-snake.svg' -exec cp {} assets/github-contribution-grid-snake.svg \;
+          find dist -name 'github-contribution-grid-snake-dark.svg' -exec cp {} assets/github-contribution-grid-snake-dark.svg \;
+          test -s assets/github-contribution-grid-snake.svg
+          test -s assets/github-contribution-grid-snake-dark.svg
+
+      - name: Render stats cards
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/render_dashboard.py
+
+      - name: Commit refreshed artwork
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -- \
+            assets/github-contribution-grid-snake.svg \
+            assets/github-contribution-grid-snake-dark.svg \
+            profile/dashboard-light.svg \
+            profile/dashboard-dark.svg \
+            README.md
+          if git diff --staged --quiet; then
+            echo "No profile artwork changes."
+          else
+            git commit -m "Update profile artwork"
+            git push
+          fi
