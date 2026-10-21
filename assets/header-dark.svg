@@ -8,7 +8,7 @@
   <text x="36" y="104" fill="#eef4f6" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="48" font-weight="700">Daan Derksen</text>
   <rect x="38" y="120" width="52" height="3" rx="1.5" fill="#e2a078"/>
   <text x="36" y="152" fill="#9aafb8" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="18">Security engineer</text>
-  <text x="862" y="152" fill="#9aafb8" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="15" text-anchor="end">SOC · Splunk · Kafka</text>
+  <text x="862" y="152" fill="#9aafb8" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="15" text-anchor="end">SOC · Splunk · Cribl</text>
   <text x="36" y="186" fill="#e2a078" font-family="'JetBrains Mono', 'Cascadia Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="20">&gt;</text>
     <clipPath id="clip0">
       <rect x="64" y="164" height="30" width="0">
@@ -32,7 +32,7 @@
       </rect>
     </clipPath>
     <g clip-path="url(#clip2)">
-      <text x="64" y="186" fill="#7dcec6" font-family="'JetBrains Mono', 'Cascadia Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="20" textLength="300" lengthAdjust="spacing">Kafka-based log pipelines</text>
+      <text x="64" y="186" fill="#7dcec6" font-family="'JetBrains Mono', 'Cascadia Mono', ui-monospace, 'SFMono-Regular', Menlo, Consolas, 'DejaVu Sans Mono', monospace" font-size="20" textLength="300" lengthAdjust="spacing">Cribl-based log pipelines</text>
     </g>
     <clipPath id="clip3">
       <rect x="64" y="164" height="30" width="0">

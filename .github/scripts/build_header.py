@@ -16,7 +16,7 @@ ASSETS = ROOT / "assets"
 PHRASES = [
     "Security engineer in a SOC",
     "Splunk, SPL, indexes, and alerting",
-    "Kafka-based log pipelines",
+    "Cribl-based log pipelines",
     "Founder of Cyberline",
     "Home lab on Kubernetes and Tailscale",
 ]
@@ -154,7 +154,7 @@ def _header(theme: dict[str, str], total: int, caret: list[tuple[int, float]], c
   <text x="36" y="104" fill="{theme["ink"]}" font-family="{SANS}" font-size="48" font-weight="700">Daan Derksen</text>
   <rect x="38" y="120" width="52" height="3" rx="1.5" fill="{theme["copper"]}"/>
   <text x="36" y="152" fill="{theme["muted"]}" font-family="{SANS}" font-size="18">Security engineer</text>
-  <text x="862" y="152" fill="{theme["muted"]}" font-family="{SANS}" font-size="15" text-anchor="end">SOC · Splunk · Kafka</text>
+  <text x="862" y="152" fill="{theme["muted"]}" font-family="{SANS}" font-size="15" text-anchor="end">SOC · Splunk · Cribl</text>
   <text x="36" y="{baseline}" fill="{theme["copper"]}" font-family="{MONO}" font-size="20">&gt;</text>
 {phrases}
   <rect x="{text_x}" y="{baseline - 16}" width="2" height="18" rx="1" fill="{theme["copper"]}">

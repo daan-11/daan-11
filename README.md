@@ -15,7 +15,7 @@
   </picture>
 </p>
 
-Security engineer in a SOC, based in the Netherlands. I work on log management and Splunk: SPL, indexes, onboarding log sources such as PostgreSQL, alerting, and dashboards. I also build Kafka-based log pipelines.
+Security engineer in a SOC, based in the Netherlands. I work on log management and Splunk: SPL, indexes, onboarding log sources such as PostgreSQL, alerting, and dashboards. I also build Cribl-based log pipelines.
 
 <p align="center">
   <a href="https://cyberline.nl">
@@ -41,7 +41,7 @@ Security engineer in a SOC, based in the Netherlands. I work on log management a
     <th align="left">Home lab</th>
   </tr>
   <tr>
-    <td valign="top">Security engineer in a SOC. Log management in Splunk, and Kafka-based log pipelines.</td>
+    <td valign="top">Security engineer in a SOC. Log management in Splunk, and Cribl-based log pipelines.</td>
     <td valign="top">KubeCare and Bastion, two projects of my own.</td>
     <td valign="top">Kubernetes, Tailscale, self-hosted n8n, and a Glance dashboard.</td>
   </tr>
@@ -51,7 +51,7 @@ I use Cursor for automation and AI-assisted development.
 
 <p align="center">
   <a href="https://www.splunk.com"><img alt="Splunk" src="https://img.shields.io/badge/Splunk-0f766e?style=flat-square&amp;logo=splunk&amp;logoColor=white" /></a>
-  <a href="https://kafka.apache.org"><img alt="Kafka" src="https://img.shields.io/badge/Kafka-0f766e?style=flat-square&amp;logo=apachekafka&amp;logoColor=white" /></a>
+  <a href="https://cribl.io"><img alt="Cribl" src="https://img.shields.io/badge/Cribl-0f766e?style=flat-square&amp;logoColor=white" /></a>
   <a href="https://www.postgresql.org"><img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-0f766e?style=flat-square&amp;logo=postgresql&amp;logoColor=white" /></a>
   <a href="https://kubernetes.io"><img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-0f766e?style=flat-square&amp;logo=kubernetes&amp;logoColor=white" /></a>
   <a href="https://tailscale.com"><img alt="Tailscale" src="https://img.shields.io/badge/Tailscale-0f766e?style=flat-square&amp;logo=tailscale&amp;logoColor=white" /></a>
@@ -61,7 +61,7 @@ I use Cursor for automation and AI-assisted development.
 <details>
   <summary><strong>Splunk and the log pipelines</strong></summary>
   <br />
-  In the SOC I work in Splunk. That means SPL, indexes, and onboarding log sources such as PostgreSQL, then alerting and dashboards on top of those logs. Kafka-based pipelines move the logs to where they need to go.
+  In the SOC I work in Splunk. That means SPL, indexes, and onboarding log sources such as PostgreSQL, then alerting and dashboards on top of those logs. Cribl-based pipelines move the logs to where they need to go.
 </details>
 
 <details>
