@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="128" viewBox="0 0 900 128" role="img" aria-labelledby="title desc">
+  <title id="title">Cyberline</title>
+  <desc id="desc">Security quick scans, NIS2 readiness, and managed hosting. Visit cyberline.nl.</desc>
+  <defs>
+    <clipPath id="cta-clip">
+      <rect width="900" height="128" rx="18"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#cta-clip)">
+    <rect width="900" height="128" fill="#10211f"/>
+    <rect width="8" height="128" fill="#7dcec6"/>
+    <text x="36" y="40" fill="#7dcec6" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="13" font-weight="700" letter-spacing="0.16em">CYBERLINE</text>
+    <text x="36" y="72" fill="#eef4f6" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="22" font-weight="700">Security quick scans</text>
+    <text x="36" y="98" fill="#9aafb8" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="16">NIS2 readiness and managed hosting</text>
+    <rect x="688" y="44" width="180" height="40" rx="20" fill="#e2a078"/>
+    <text x="778" y="69" fill="#1c120c" font-family="ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, 'DejaVu Sans', sans-serif" font-size="14" font-weight="700" text-anchor="middle">Visit cyberline.nl</text>
+  </g>
+  <rect x="0.5" y="0.5" width="899" height="127" rx="18" fill="none" stroke="#1e4f4a"/>
+</svg>
