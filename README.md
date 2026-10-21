@@ -51,11 +51,29 @@ I use Cursor for automation and AI-assisted development.
 
 <p align="center">
   <a href="https://www.splunk.com"><img alt="Splunk" src="https://img.shields.io/badge/Splunk-0f766e?style=flat-square&amp;logo=splunk&amp;logoColor=white" /></a>
-  <a href="https://kafka.apache.org"><img alt="Kafka" src="https://img.shields.io/badge/Kafka-0f766e?style=flat-square&amp;logo=apachekafka&amp;logoColor=white" /></a>
+  <a href="https://cribl.io"><img alt="Cribl" src="https://img.shields.io/badge/Cribl-0f766e?style=flat-square&amp;logoColor=white&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTEuNSAzaDEyLjJMMTkgNi4yIDEzLjcgOS40SDEuNXptMi40IDYuNmgxMi4ybDUuMyAzLjItNS4zIDMuMkgzLjl6bTIuNCA2LjZoMTIuMkwyMyAxOS40IDE3LjcgMjIuNkg2LjN6Ii8%2BPC9zdmc%2B" /></a>
   <a href="https://www.postgresql.org"><img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-0f766e?style=flat-square&amp;logo=postgresql&amp;logoColor=white" /></a>
   <a href="https://kubernetes.io"><img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-0f766e?style=flat-square&amp;logo=kubernetes&amp;logoColor=white" /></a>
   <a href="https://tailscale.com"><img alt="Tailscale" src="https://img.shields.io/badge/Tailscale-0f766e?style=flat-square&amp;logo=tailscale&amp;logoColor=white" /></a>
   <a href="https://n8n.io"><img alt="n8n" src="https://img.shields.io/badge/n8n-0f766e?style=flat-square&amp;logo=n8n&amp;logoColor=white" /></a>
+</p>
+
+<p align="center">
+  <a href="https://www.python.org"><img alt="Python" src="https://img.shields.io/badge/Python-0f766e?style=flat-square&amp;logo=python&amp;logoColor=white" /></a>
+  <a href="https://www.gnu.org/software/bash/"><img alt="Bash" src="https://img.shields.io/badge/Bash-0f766e?style=flat-square&amp;logo=gnubash&amp;logoColor=white" /></a>
+  <a href="https://argo-cd.readthedocs.io/en/stable/"><img alt="Argo CD" src="https://img.shields.io/badge/Argo%20CD-0f766e?style=flat-square&amp;logo=argo&amp;logoColor=white" /></a>
+  <a href="https://grafana.com"><img alt="Grafana" src="https://img.shields.io/badge/Grafana-0f766e?style=flat-square&amp;logo=grafana&amp;logoColor=white" /></a>
+  <a href="https://grafana.com/oss/loki/"><img alt="Loki" src="https://img.shields.io/badge/Loki-0f766e?style=flat-square&amp;logoColor=white&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTMgNGgxOHYzSDN6bTAgNi41aDE0LjV2M0gzek0zIDE3aDExdjNIM3oiLz48L3N2Zz4%3D" /></a>
+  <a href="https://about.gitea.com"><img alt="Gitea" src="https://img.shields.io/badge/Gitea-0f766e?style=flat-square&amp;logo=gitea&amp;logoColor=white" /></a>
+</p>
+
+<p align="center">
+  <a href="https://www.sentinelone.com"><img alt="SentinelOne" src="https://img.shields.io/badge/SentinelOne-0f766e?style=flat-square&amp;logoColor=white&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTIgMS44IDIwLjggNS42djYuOGMwIDQuNi0zLjYgNy40LTguOCA5LjgtNS4yLTIuNC04LjgtNS4yLTguOC05LjhWNS42em0wIDIuNkw1LjYgNy4ydjVjMCAzLjIgMi41IDUuMyA2LjQgNy4zIDMuOS0yIDYuNC00LjEgNi40LTcuM3YtNXoiLz48L3N2Zz4%3D" /></a>
+  <a href="https://workspace.google.com"><img alt="Google Workspace" src="https://img.shields.io/badge/Google%20Workspace-0f766e?style=flat-square&amp;logo=google&amp;logoColor=white" /></a>
+  <a href="https://aws.amazon.com"><img alt="AWS" src="https://img.shields.io/badge/AWS-0f766e?style=flat-square&amp;logoColor=white&amp;logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI%2BPHBhdGggZmlsbD0iI2ZmZiIgZD0iTTE5LjQgMTAuMUE3LjUgNy41IDAgMCAwIDEyIDRhNy41IDcuNSAwIDAgMC02LjcgNC4xQTYgNiAwIDAgMCA2IDIwaDEzYTUgNSAwIDAgMCAuNC05Ljl6Ii8%2BPC9zdmc%2B" /></a>
+  <a href="https://www.rabbitmq.com"><img alt="RabbitMQ" src="https://img.shields.io/badge/RabbitMQ-0f766e?style=flat-square&amp;logo=rabbitmq&amp;logoColor=white" /></a>
+  <a href="https://www.docker.com"><img alt="Docker" src="https://img.shields.io/badge/Docker-0f766e?style=flat-square&amp;logo=docker&amp;logoColor=white" /></a>
+  <a href="https://helm.sh"><img alt="Helm" src="https://img.shields.io/badge/Helm-0f766e?style=flat-square&amp;logo=helm&amp;logoColor=white" /></a>
 </p>
 
 <details>
