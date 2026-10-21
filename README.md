@@ -51,7 +51,7 @@ I use Cursor for automation and AI-assisted development.
 
 <p align="center">
   <a href="https://www.splunk.com"><img alt="Splunk" src="https://img.shields.io/badge/Splunk-0f766e?style=flat-square&amp;logo=splunk&amp;logoColor=white" /></a>
-  <a href="https://kafka.apache.org"><img alt="Kafka" src="https://img.shields.io/badge/Kafka-0f766e?style=flat-square&amp;logo=apachekafka&amp;logoColor=white" /></a>
+  <a href="https://cribl.io"><img alt="Cribl" src="https://img.shields.io/badge/Cribl-0f766e?style=flat-square&amp;logoColor=white" /></a>
   <a href="https://www.postgresql.org"><img alt="PostgreSQL" src="https://img.shields.io/badge/PostgreSQL-0f766e?style=flat-square&amp;logo=postgresql&amp;logoColor=white" /></a>
   <a href="https://kubernetes.io"><img alt="Kubernetes" src="https://img.shields.io/badge/Kubernetes-0f766e?style=flat-square&amp;logo=kubernetes&amp;logoColor=white" /></a>
   <a href="https://tailscale.com"><img alt="Tailscale" src="https://img.shields.io/badge/Tailscale-0f766e?style=flat-square&amp;logo=tailscale&amp;logoColor=white" /></a>
