@@ -47,7 +47,7 @@ Security engineer in a SOC, based in the Netherlands. I work on log management a
   </tr>
 </table>
 
-I use Cursor for automation and AI-assisted development, and I run my own Project Zomboid server.
+I use Cursor for automation and AI-assisted development.
 
 <p align="center">
   <a href="https://www.splunk.com"><img alt="Splunk" src="https://img.shields.io/badge/Splunk-0f766e?style=flat-square&amp;logo=splunk&amp;logoColor=white" /></a>
@@ -71,9 +71,9 @@ I use Cursor for automation and AI-assisted development, and I run my own Projec
 </details>
 
 <details>
-  <summary><strong>KubeCare, Bastion, and Project Zomboid</strong></summary>
+  <summary><strong>KubeCare and Bastion</strong></summary>
   <br />
-  KubeCare and Bastion are projects I am building myself. When I am not doing that, I run my own Project Zomboid server.
+  KubeCare and Bastion are projects I am building myself.
 </details>
 
 ## On GitHub

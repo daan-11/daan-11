@@ -19,7 +19,6 @@ PHRASES = [
     "Kafka-based log pipelines",
     "Founder of Cyberline",
     "Home lab on Kubernetes and Tailscale",
-    "A self-hosted Project Zomboid server",
 ]
 
 # JetBrains Mono at 20px is 12px per glyph. textLength locks that width
@@ -148,7 +147,7 @@ def _header(theme: dict[str, str], total: int, caret: list[tuple[int, float]], c
     return f"""<?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" width="900" height="220" viewBox="0 0 900 220" role="img" aria-labelledby="title desc">
   <title id="title">Daan Derksen</title>
-  <desc id="desc">Security engineer in the Netherlands. The line under the name types through his work, Cyberline, home lab, and Project Zomboid server.</desc>
+  <desc id="desc">Security engineer in the Netherlands. The line under the name types through his work, Cyberline, and the home lab.</desc>
   <rect x="0.5" y="0.5" width="899" height="219" rx="18" fill="{theme["card"]}" stroke="{theme["stroke"]}"/>
   <circle cx="40" cy="42" r="4" fill="{theme["accent"]}"/>
   <text x="54" y="47" fill="{theme["accent"]}" font-family="{SANS}" font-size="13" font-weight="700" letter-spacing="0.18em">NETHERLANDS</text>
