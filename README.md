@@ -100,12 +100,12 @@ I use Cursor for automation and AI-assisted development.
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./profile/dashboard-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="./profile/dashboard-light.svg" />
-    <img alt="1189 contributions in the last year. Current streak: 4 days. Longest streak: 8 days. Public repositories: 2. No detected language on public repositories yet." src="./profile/dashboard-light.svg" />
+    <img alt="1206 contributions in the last year. Current streak: 1 day. Longest streak: 8 days. Public repositories: 2. No detected language on public repositories yet." src="./profile/dashboard-light.svg" />
   </picture>
 </p>
 
 <!-- stats:start -->
-<p align="center"><sub>1189 contributions in the last year. Current streak: 4 days. Longest streak: 8 days. Public repositories: 2. No detected language on public repositories yet.</sub></p>
+<p align="center"><sub>1206 contributions in the last year. Current streak: 1 day. Longest streak: 8 days. Public repositories: 2. No detected language on public repositories yet.</sub></p>
 <!-- stats:end -->
 
 <p align="center">
